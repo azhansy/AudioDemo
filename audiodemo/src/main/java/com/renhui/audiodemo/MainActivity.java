@@ -82,7 +82,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_ag.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                VoiceChatViewActivity.launch(MainActivity.this);
+            }
+        });
+        btn_ag.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View view) {
                 CrimeActivity.launch(MainActivity.this);
+                return true;
             }
         });
         checkPermissions();
