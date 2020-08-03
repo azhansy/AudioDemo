@@ -1,0 +1,21 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gradle
+.idea
+/app/app.iml
+/awesomecore/awesomecore.iml
+/awesomebusiness/awesomebusiness.iml
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+/.gradle/
+awesomebusiness/libs/
+awesomecore/libs/
+build/
+/.idea/
+/.idea/workspace.xmlk
+/local.properties
+*/.DS_Store
